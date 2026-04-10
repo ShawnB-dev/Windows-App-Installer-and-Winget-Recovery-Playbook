@@ -97,7 +97,7 @@ Get-AppxProvisionedPackage -Online | Where-Object {$_.DisplayName -like "*AppIns
 This cleared the broken registrations blocking reinstallation.
 
 ---
-###Step 2: Reset the Component Store
+### Step 2: Reset the Component Store
 Even though DISM initially reported no issues, forcing a deeper cleanup was necessary:
 
 ```powershell
