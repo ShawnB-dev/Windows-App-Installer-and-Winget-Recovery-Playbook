@@ -1,4 +1,4 @@
-#Windows App Installer & winget Recovery Playbook
+# Windows App Installer & winget Recovery Playbook
 
 A comprehensive guide and repository of scripts for repairing corrupted Windows App Installer environments. This playbook addresses critical failures where winget, the Microsoft Store, and MSIX package handling become unresponsive or throw dependency errors.
 
